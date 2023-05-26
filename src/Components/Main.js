@@ -42,18 +42,21 @@ const Main = () => {
                     <p className="text-gray-500 mt-6 text-lg text-center mb-8">Take Your Health And Body  To Next Level with our comprenhensive program designed to help you reach
                         your fitnes goals.
                     </p>
-                    <div className="flex flex-col justify-center items-center sm:flex-row sm:gap-6 lg:mt-8">
-                        <div className='flex flex-col justify-center items-center'>
-                            <FontAwesomeIcon icon={faDumbbell} className='text-red-500' size='2x' />
-                            <h3 className="text-xl font-bold mb-12 mt-4 ">PROFESSIONAL TRAINERS</h3>
+                    <div className="flex flex-col justify-center items-center mx-8 sm:flex-row gap-6 lg:mt-8">
+                        <div className='flex flex-col justify-center items-center gap-6'>
+                            <img src='https://images.unsplash.com/photo-1616279969722-d81a5a3944ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=854&q=80' alt='Personal Trainner'
+                                className='w-72' />
+                            <h3 className="text-xl font-bold mb-12 mt-4 text-center">PROFESSIONAL TRAINERS</h3>
                         </div>
-                        <div className='flex flex-col justify-center items-center'>
-                            <FontAwesomeIcon icon={faDumbbell} className='text-red-500' size='2x' />
-                            <h3 className="text-xl font-bold mb-12 mt-4 ">MODERN EQUIPMENTS</h3>
+                        <div className='flex flex-col justify-center items-center gap-6'>
+                            <img src='https://images.unsplash.com/photo-1623874106686-5be2b325c8f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80' alt='Equipments'
+                                className='w-72' />
+                            <h3 className="text-xl font-bold mb-12 mt-4 text-center">MODERN EQUIPMENTS</h3>
                         </div>
-                        <div className='flex flex-col justify-center items-center'>
-                            <FontAwesomeIcon icon={faDumbbell} className='text-red-500' size='2x' />
-                            <h3 className="text-xl font-bold mb-12 mt-4 ">FANCY GYM MACHINES</h3>
+                        <div className='flex flex-col justify-center items-center gap-6'>
+                            <img src='https://images.unsplash.com/photo-1598575435247-2572be03bf6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80' alt='GYM Machines'
+                                className='w-72' />
+                            <h3 className="text-xl font-bold mb-12 mt-4 text-center">FANCY GYM MACHINES</h3>
                         </div>
                     </div>
                     <button className="px-14 py-4 bg-gray-700 text-white font-bold mt-16 mb-40 hover:bg-black hover:text-white transition-colors duration-500">TAKE A TOUR</button>
@@ -63,7 +66,7 @@ const Main = () => {
                 <div className="m-8 flex flex-col justify-center items-center">
                     <h3 className="px-6 py-4 bg-red-600 text-white font-bold">OUR FEATURED CLASSES</h3>
                     <p className="text-4xl font-bold text-center mt-8">We Are Offering Best Flexible Classes</p>
-                    <div className="flex flex-col md:w-full">
+                    <div className="flex flex-col md:w-96 lg:w-full lg:px-48">
                         <div className="bg-[url('https://images.unsplash.com/photo-1520877880798-5ee004e3f11e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')]
                         bg-cover bg-no-repeat bg-center w-80 sm:w-full h-72 mt-12 flex flex-col justify-end items-start rounded-md">
                             <h3 className="text-white font-bold text-4xl px-4">Cycling</h3>
